@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: "DM Sans", sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  margin: 0 auto;
+  position: relative;
+  background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+.header__logo {
+  text-align: center;
+  margin: 25px 0;
+}
+.header__title {
+  text-align: center;
+  font-size: 24px;
+  min-width: 288px;
+  margin: 0 auto;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+.header__paragraph {
+  text-align: center;
+  font-size: 14px;
+  color: #FFE9D5;
+  min-width: 288px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.header__button {
+  max-width: 220px;
+  border: none;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  padding: 8px 5px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.1607843137);
+  background-color: #FAF8F7;
+  font-weight: 700;
+  text-decoration: none;
+  color: #201E1C;
+}
+
+main .section-number1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #FAF8F7;
+}
+main .section-number1--imgDesc {
+  text-align: center;
+  margin-top: 60px;
+  max-width: 470px;
+  min-width: 280px;
+  margin: 0 auto;
+}
+main .section-number1--imgDesc .imgDesc--info {
+  margin-top: 30px;
+  margin: 0 auto;
+}
+main .section-number1--imgDesc .imgDesc--info .desc--title {
+  font-size: 24px;
+  font-weight: 700;
+}
+main .section-number1--imgDesc .imgDesc--info .desc--paragraph {
+  font-size: 14px;
+  color: #BABABA;
+  margin-top: 15px;
+}
+main .section-number1--tables {
+  text-align: center;
+  margin: 35px auto 20px auto;
+}
+main .section-number1--tables .table--title, main .section-number1--tables .table--title2 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #1A9AF7;
+}
+main .section-number1--tables .table--title2 {
+  color: #F7931A;
+}
+main .section-number1--tables table {
+  padding: 5px 8px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  height: 180px;
+  width: 220px;
+}
+main .section-number1--tables td {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+main .section-number1--tables td .fa-arrow-trend-down {
+  color: #ff0000;
+}
+main .section-number1--tables td .fa-arrow-trend-up {
+  color: #51e951;
+}
+main .section-number1--date, main .section-number1--date2 {
+  max-width: 160px;
+  margin: 0 auto;
+  font-size: 12px;
+  margin: 15px auto 40px auto;
+  padding: 4px 6px;
+  border-radius: 4px;
+  background-color: #E7F5FF;
+  font-family: "Inter", sans-serif;
+}
+main .section-number1--date2 {
+  background-color: #FFE9D5;
+}
+
+.section-number2 {
+  background-color: #201E1C;
+  color: white;
+  position: relative;
+}
+.section-number2--img {
+  position: absolute;
+  top: -12px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.section-number2--desc {
+  min-width: 288px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+}
+.section-number2--desc .desc--title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 26px;
+}
+.section-number2--desc .desc--paragraph {
+  font-size: 14px;
+  color: #BABABA;
+}
+.section-number2--explain {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.section-number2--explain .explain--card {
+  max-width: 290px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: #282623;
+  padding: 8px 10px;
+}
+.section-number2--explain .explain--card .card--title {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.section-number2--explain .explain--card .card--paragraph {
+  font-size: 14px;
+  color: #BABABA;
+}
+
+.section-number3 {
+  background-image: url("https://i.postimg.cc/PrbY1x2N/bitcoinbaby-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-height: 400px;
+  max-height: 450px;
+}
+.section-number3 p {
+  font-weight: 700;
+  text-align: center;
+  font-size: 24px;
+  color: #FFFFFF;
+  padding-top: 50px;
+}
+
+.section-number4 {
+  background-color: #FAF8F7;
+}
+.section-number4--desc {
+  max-width: 290px;
+  margin: 0 auto;
+  padding-top: 40px;
+  text-align: center;
+}
+.section-number4--desc .desc--title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.section-number4--desc .desc--paragraph {
+  font-size: 14px;
+  color: #BABABA;
+  margin-bottom: 50px;
+}
+.section-number4--slider {
+  padding-top: 10px;
+  display: flex;
+  gap: 10px;
+  height: 316px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  -ms-scroll-snap-type: x proximity;
+      scroll-snap-type: x proximity;
+  margin: 0 auto;
+}
+.section-number4--slider .container--cards {
+  position: relative;
+  scroll-snap-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  padding: 0px 10px;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.section-number4--slider .container--cards .cards {
+  min-width: 180px;
+  max-width: 227px;
+}
+.section-number4--slider .container--cards .cards .card--headsup {
+  position: absolute;
+  border: none;
+  font-size: 12px;
+  padding: 5px 8px;
+  top: -10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 110px;
+  font-weight: 700;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  background-color: #F7931A;
+}
+.section-number4--slider .container--cards .cards .card--payment {
+  display: inline-block;
+  margin-top: 35px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.section-number4--slider .container--cards .cards .card--price {
+  font-size: 54px;
+}
+.section-number4--slider .container--cards .cards .card--price i {
+  vertical-align: text-top;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 10px;
+}
+.section-number4--slider .container--cards .cards .card--advice {
+  font-size: 12px;
+  color: #BABABA;
+  margin-bottom: 20px;
+}
+.section-number4--slider .container--cards .cards .card--buy {
+  background-color: #FAF8F7;
+  font-size: 14px;
+  font-weight: 700;
+  border: 3px solid #F7931A;
+  padding: 5px 7px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.section-number4--slider .container--cards .cards .card--buy i {
+  color: #F7931A;
+  margin-left: 10px;
+}
+
+footer div {
+  background-color: #F7931A;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+footer div li {
+  list-style: none;
+  color: #FFFFFF;
+  font-size: 14px;
+  padding: 5px 0;
+}/*# sourceMappingURL=main.css.map */

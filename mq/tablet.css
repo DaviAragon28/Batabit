@@ -1,0 +1,16 @@
+
+.section-number1--tables {
+    display: flex;
+    gap: 50px;
+}
+
+.section-number2--explain {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 820px;
+    margin: 0 auto;
+}
+
+.section-number4--slider {
+    justify-content: center;
+}
